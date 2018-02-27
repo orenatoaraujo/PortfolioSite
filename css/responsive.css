@@ -1,0 +1,134 @@
+@media screen and (max-width: 425px) {
+
+
+  /* Logo */
+  .logo {
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  .logo img {
+    max-width: 100%;
+  }
+
+
+  /* Header Text */
+  .header-text {
+    text-align: center;
+    width: 100%;
+  }
+
+
+  .header-text-title {
+    font-size: 1.2em;
+  }
+
+
+  .header-text-sub-title {
+    font-size: 0.6em;
+  }
+
+
+  /* Cover */
+  .cover-img {
+    height: 260px;
+  }
+
+
+  /* Works */
+  .works-item {
+    margin-right: 0;
+    width: 100%;
+  }
+
+
+  .works-item-img {
+    width: 100%;
+  }
+
+
+}
+
+
+@media screen and (max-width: 640px) and (min-width: 425px) {
+
+  
+  /* Logo */
+  .logo {
+    width: 15%;
+  }
+
+
+  .logo img {
+    max-width: 50px;
+  }
+
+
+  /* Header Text */
+  .header-text {
+    width: 85%;
+  }
+
+
+  .header-text-title {
+    font-size: 1.3em;
+    margin-bottom: 9px;
+  }
+
+
+  .header-text-sub-title {
+    font-size: 0.6em;
+  }
+
+
+  /* Cover */
+  .cover-img {
+    height: 260px;
+  }
+
+
+  /* Works */
+  .works-item,
+  .works-item:nth-child(3n) {
+    margin-right: 3%;
+    width: 48.5%;
+  }
+
+
+  .works-item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+
+}
+
+
+@media screen and (max-width: 850px) and (min-width: 425px) {
+
+
+  /* Cover */
+  .cover-img {
+    height: 315px;
+  }
+
+
+  /* Works */
+  .works h2 {
+    font-size: 1.6em;
+  }
+
+
+  .works-item-title {
+    font-size: 1.4em;
+  }
+  
+
+  .works-item-img {
+    height: 160px;
+  }
+
+
+}
+
